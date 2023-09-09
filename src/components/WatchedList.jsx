@@ -1,5 +1,5 @@
 import { useMoviesContext } from "../context/MoviesContext";
-import { WatchedMovie } from "./WatchedMovie.js";
+import { WatchedMovie } from "./WatchedMovie";
 
 export function WatchedList() {
   const { watchedMovie: watched } =

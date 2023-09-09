@@ -1,5 +1,5 @@
 import { useMoviesContext } from "../context/MoviesContext";
-import { Movie } from "./Movie.js";
+import { Movie } from "./Movie.jsx";
 
 export function MoviesList() {
   const { movies } = useMoviesContext();

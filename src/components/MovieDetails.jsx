@@ -1,9 +1,9 @@
 import { useState, useEffect, useRef } from "react";
 import StarRating from "./StarRating";
 import { useKey } from "../hooks/useKey";
-import { Loader } from "./Loader";
 import { KEY } from "./App";
 import { useMoviesContext } from "../context/MoviesContext";
+import Spinner from "./Spinner";
 
 export function MovieDetails() {
   const [movie, setMovie] = useState({});
@@ -84,7 +84,7 @@ export function MovieDetails() {
   return (
     <div className="details">
       {isLoading ? (
-        <Loader />
+        <Spinner />
       ) : (
         <>
           <header>
