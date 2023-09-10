@@ -4,7 +4,7 @@
 usePopcorn is a simple ReactBased movies app that demonstrates the uses of ContextAPI where user can search movies, add movies to watchlist, rate them and see their storyline, imdb rattings, genre, and a lot more. It uses OMDB API to fetch movies data.
 
 
-## Screenshot
+## Screenshots
 
 ![Screenshot 2023-09-10 130922](https://github.com/WaqarAhmad321/usePopcorn-ReactJs/assets/106612382/3ab1d5b6-b62d-4597-9419-4a9dffc4aa71)
 
