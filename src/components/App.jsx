@@ -1,5 +1,5 @@
 import { useMoviesContext } from "../context/MoviesContext";
-import moduleName from 'rea';
+import { BrowserRouter } from "react-router-dom";
 import { MoviesList } from "./MoviesList";
 import { MovieDetails } from "./MovieDetails";
 import { WatchedSummary } from "./WatchedSummary";
@@ -22,7 +22,7 @@ export default function App() {
   const { isLoading, error, movies, selectedID, query } = useMoviesContext();
 
   return (
-    <>
+    <BrowserRouter>
       <Navbar>
         <Logo />
         <Search />
@@ -50,6 +50,6 @@ export default function App() {
           )}
         </Box>
       </Main>
-    </>
+    </BrowserRouter>
   );
 }
