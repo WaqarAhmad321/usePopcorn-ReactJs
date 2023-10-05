@@ -2,7 +2,7 @@ import { useState, createContext, useContext } from "react";
 import { useLocalStorage } from "../hooks/useLocalStorage";
 import { useMovies } from "../hooks/useMovies";
 
-const MoviesContext = createContext(MoviesProvider);
+const MoviesContext = createContext();
 
 function MoviesProvider({ children }) {
   const [query, setQuery] = useState("");
